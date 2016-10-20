@@ -20,7 +20,7 @@ public class HasilActivity extends AppCompatActivity {
         int yearNow = Calendar.getInstance().get(Calendar.YEAR);
         int tahunLahir = yearNow - umur;
 
-        TextView tvHasil = (TextView) findViewById(R.id.textViewHasil);
+        TextView tvHasil = (TextView) findViewById(R.id.textviewhasil);
         tvHasil.setText(nama + " lahir pada tahun "+ tahunLahir);
         setTitle("Hasil");
 

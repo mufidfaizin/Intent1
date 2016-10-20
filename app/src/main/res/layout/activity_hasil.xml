@@ -14,7 +14,7 @@
         tools:text="Hasil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewHasil"
+        android:id="@+id/textviewhasil"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:gravity="center"/>
 
@@ -22,5 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kembali"
-        android:id="@+id/buttonBack" />
+        android:id="@+id/buttonBack"
+        android:layout_gravity="center_horizontal" />
+
 </LinearLayout>
